@@ -2,8 +2,8 @@
 
 # === CONFIGURATION ===
 REGION="eu-west-3"
-KEY_PATH="/Users/stevecostalat/.ssh/scespificio.pem"    # Chemin local vers la clé privée
-KEY_NAME="scespificio"                        # Nom de la paire de clés AWS
+KEY_PATH="/Users/stevecostalat/.ssh/espificioaws.pem"    # Chemin local vers la clé privée
+KEY_NAME="espificioaws"                        # Nom de la paire de clés AWS
 AMI="ami-0160e8d70ebc43ee1"                  # Ubuntu 22.04 LTS - Paris
 INSTANCE_TYPE="t2.small"
 USERNAME="ubuntu"
