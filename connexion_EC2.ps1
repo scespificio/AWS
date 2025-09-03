@@ -1,0 +1,1 @@
+Set-AWSCredentials -AccessKey "" -SecretKey "" -StoreAs "default"
