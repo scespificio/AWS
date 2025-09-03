@@ -8,7 +8,7 @@ AMI="ami-0160e8d70ebc43ee1"                  # Ubuntu 22.04 LTS - Paris
 INSTANCE_TYPE="t2.small"
 USERNAME="ubuntu"
 INSTANCE_NAME="test"
-SECURITY_GROUP_ID="sg-0dad6fa1356dbcfe0"     # Remplace si nécessaire
+SECURITY_GROUP_ID="sg-0935bb45507aab81e"     # Remplace si nécessaire
 
 # === LANCEMENT DE L'INSTANCE ===
 echo "Création de l'instance EC2..."
@@ -56,3 +56,7 @@ echo "=== INFORMATION DE CONNEXION ==="
 echo "Votre instance EC2 est prête à être utilisée!"
 echo "Pour vous connecter en SSH :"
 echo "ssh -i \"$KEY_PATH\" $USERNAME@$PUBLIC_IP"
+echo "_________________ connection à "$USERNAME@$PUBLIC_IP"
+ssh -i \"$KEY_PATH\" $USERNAME@$PUBLIC_IP"
+
+
